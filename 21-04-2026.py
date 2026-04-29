@@ -1,0 +1,8 @@
+print('--- Strings ---')
+print('hello there!')
+print('--- Integers ---')
+print(1)
+print(7)
+print('--- Floats ----')
+print(1.1)
+print(1.8)
