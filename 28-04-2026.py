@@ -7,6 +7,8 @@
 
 # Arithmetic Operations - add, subtract, divison, multiply
 # String Operations - Concatenation
+# Comparison Operators - >, >=, <, <=, ==, !=
+# Boolean Operators = and, or, not
 
 # built-in functions
 # print() --> SHows the output on screen
