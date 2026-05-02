@@ -70,3 +70,23 @@ else:
 # 3. Compare username to 'peppy' and password to 'swordfish'abs
 # 4. If they are matched, tell them they can sign up
 # 5. Or else tell them they cannot sign up.
+
+
+# if statement
+
+# if condition:
+#     code block
+# else:
+#     code block
+
+# if you get marks above 80 i will get you phone, laptop, car or else i wont get you anything
+
+# if 2 > 1:
+#     print("hi")
+#     print('welcome')
+#     name = 'mouse'
+#     age = 20
+#     print('hi ' + 'there')
+#     output = 2 + 2
+# else:
+#     print('bye')
