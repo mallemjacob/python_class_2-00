@@ -98,31 +98,31 @@
 # guntur, vijayawada, vizag, hyderabad, anatapur
 # serve food from that place
 
-print('Enter you location')
-locaiton = input()
+# print('Enter you location')
+# locaiton = input()
 
-if locaiton == 'guntur':
-    dish1 = 'chicken'
-    dish2 = 'prawns'
-    print('We serve these dishes ' + dish1 + ' and ' + dish2)
-elif locaiton == 'vijayawada':
-    dish1 = 'gongura chicken'
-    dish2 = 'prawns fry'
-    print('We serve these dishes ' + dish1 + ' and ' + dish2)
-elif locaiton == 'vizag':
-    dish1 = 'shrimps'
-    dish2 = 'kfc'
-    print('We serve these dishes ' + dish1 + ' and ' + dish2)
-elif locaiton == 'hyderabad':
-    dish1 = 'Biryani'
-    dish2 = 'cavier'
-    print('We serve these dishes ' + dish1 + ' and ' + dish2)
-elif locaiton == 'anatapur':
-    dish1 = 'fish fry'
-    dish2 = 'prawns'
-    print('We serve these dishes ' + dish1 + ' and ' + dish2)
-else:
-    print('You can eat anything')
+# if locaiton == 'guntur':
+#     dish1 = 'chicken'
+#     dish2 = 'prawns'
+#     print('We serve these dishes ' + dish1 + ' and ' + dish2)
+# elif locaiton == 'vijayawada':
+#     dish1 = 'gongura chicken'
+#     dish2 = 'prawns fry'
+#     print('We serve these dishes ' + dish1 + ' and ' + dish2)
+# elif locaiton == 'vizag':
+#     dish1 = 'shrimps'
+#     dish2 = 'kfc'
+#     print('We serve these dishes ' + dish1 + ' and ' + dish2)
+# elif locaiton == 'hyderabad':
+#     dish1 = 'Biryani'
+#     dish2 = 'cavier'
+#     print('We serve these dishes ' + dish1 + ' and ' + dish2)
+# elif locaiton == 'anatapur':
+#     dish1 = 'fish fry'
+#     dish2 = 'prawns'
+#     print('We serve these dishes ' + dish1 + ' and ' + dish2)
+# else:
+#     print('You can eat anything')
 
 
 # Homework
