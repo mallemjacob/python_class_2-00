@@ -36,7 +36,7 @@
 # while loop
 
 # while i am in class, you should do rounds
-# but while i am not in class, you dont have todo round
+# but while i am not in class, you dont have to do rounds
 
 # if condition:
 #   code block
@@ -64,13 +64,18 @@
 # or else ask again
 
 
-print('enter username: ')
-username = input()  # mouse
+# print('enter username: ')
+# username = input()  # mouse
 
-while username != 'peppy':  # peppy != peppy
-    print('wrong username')
-    print('enter username again: ')
-    username = input()
+# while username != 'peppy':  # peppy != peppy
+#     print('wrong username')
+#     print('enter username again: ')
+#     username = input()
 
 
 # write a while loop for numbers starting from 10 to 1.
+
+a = 10
+while a >= 1:  # 10 >= 1
+    print(a)  # 10
+    a = a - 1
