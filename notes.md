@@ -12,6 +12,7 @@ booleans
 arthimetic: +, -, \*, /, %
 comparison: ==, !=, >, <, >=, <=
 logical: and, or, not
+string: +
 
 ## Variables
 

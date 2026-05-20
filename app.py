@@ -1,128 +1,73 @@
-# English = Hi, How are you?
-# Python = 'Hi, How are you?'
-
-# Strings --> words
-# 'Hi, How are you?'
-
-# 'Hello'
-
-# 'Welcome to my class'
-
-# print('Hi, How are you?')
 
 
-# Numbers -- > Integers, Floats
-
-# Integers --> 1,2,10,100...
-# Floats --> 1.1, 2.5, 100.56...
-# print(1)
+# # print('hello')
+# # print(1 + 1)
 
 
-# 1 + 1
+# # name = 'mouse'
+# # age = 25
+# # height = 5.6
 
-# print('Line 13')
-
-# print(100 + 156)  # addtion
-
-# print(100 + 156 + 1 + 2 + 10)
-
-# print(10 - 4)  # subtraction
-
-# print(10 * 56)  # multiplication
-
-# print(10 / 2)  # division
-
-# print(10 + 14 / 3 * 67)
-
-# print(2 ** 3)  # exponent
-
-# print(1.2 + 3.4)
+# # name_of_my_computer = 'Apple'
+# # age_of_my_pet = 5
 
 
-# Input --> Computer (Python Interpreter) --> Output
-# Input --> Computer (Javascript Interpreter) --> Output
-
-# String Concatenation
-
-# print('hi ' + 'there')
-# print('hi ' + 'there ' + 'welcome ' + 'to my class')
-
-# String Replication
-
-print('hi ' * 3)
-print('i am a mouse ' * 5)
-print('*' * 8)
-print('-' * 3)
-
-dashes = '-' * 3  # '---'
-print(dashes + ' PYTHON ' + dashes)
-
-myage = (18 + 2) // 2
-print(myage)
-
-# Python data types (data = information)
-# 1. Intergers (1,2,3,4,5...)
-# 2. Floats (1.1,2.0,3.14...)
-# 3. Strings ('hi','here','there')
-# 4. Booleans (True, False)
-
-# True
-# False
-
-# print(True)
-# print(False)
-
-# Comparison Operators
-# >, <, >=, <=, ==, !=
-
-# print(2 > 1) # True
-# print(10 < 5) # False
-# print(2 == 2) # True
-# print(2 != 2) # False
-# print(10 >= 10) # True
-# print(10 <= 10) # True
+# # print(name_of_my_computer)
 
 
-# Show output to the user on the screen
-# print()
-# print('hi' == 'hi')
-# print('welcome' == 'bye')
-
-# print('welcome' != 'bye')
+# # vscode --> python interperetor --> output
 
 
-# Take user input from the keyboard
-# print('Enter your name: ')
-# print('hi ' + input())
+# first_name = 'valkyrie'
+# last_name = 'loki'
+# age = '30'
 
-# Variables provides labels to the values.
+# previous_old_address = 'postcal coloy'
+# current_address = 'bharathpert'
+
+# # i am valkyrie loki, i am 21 years old.
+
+
+# full_name = first_name + ' ' + last_name
+
+# about_me = 'I am ' + full_name + ', i am ' + str(age) + ' years old.'
+
+# print(full_name)
+
+# print(about_me)
+
+
+# # i am valkyrie loki, i will be 22 years old next year.
+
+# about_me = 'I am ' + full_name + ', i will be ' + \
+#     str(int(age) + 1) + ' years old next year.'
+
+# print(about_me)
+
+
+# conditions
+
+
+# if your marks are above 35, you can go to the next class or else you have to stay in this class.
+
+# if condition:
+#     code block
+# else:
+#     code block
+
+# pass_marks = 35
+# student_marks = 90
+
+# if student_marks > pass_marks:
+#     print('You can go to the next class')
+# else:
+#     print('You have to stay here in this class.')
+
+
 # name = 'mouse'
-# section = 'c'
-# roll_no = 461
+# user_name = 'mouse'
 
-# print('Your name is ' + name)
-# print('Your section is ' + section)
-# print('Your roll number is ' + str(roll_no))
-
-# distance_guntur_to_vijayawada_km = 100
-# print(distance_guntur_to_vijayawada_km)
-
-
-# driving lincense
-# age must be above 18, they must be submit age proof like voter id, aadhar id
-# and also they must be from AP
-
-# if age is greather than 18, and if that person is from AP, give him the driver liscense, else reject him.
-
-
-# Problem solving
-
-# User provided information
-age = 17
-location = 'MP'
-
-# Rule book
-if age > 18 and location == 'AP':
-    print('You can get driver license')
-else:
-    print('You are rejected')
+# if name == user_name:
+#     print('Name matches')
+# else:
+#     print('name doesnt match')
