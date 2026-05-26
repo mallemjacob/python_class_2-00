@@ -8,13 +8,26 @@ telugu, english, german
 
 hello, hi, good morning
 guten morgen
+1,2,3,4.5
 
 ## Programming Language
 
 humans - computer
 c, c++, java, python
 
+500
+'rupees'
+
 ## Python
+
+Very easy to learn for beginners
+Simple syntax
+Web development
+Machine Learning
+Data science
+Medical field
+Automation
+DevOps
 
 problem solving
 
@@ -23,8 +36,18 @@ voter id =
 age above 18
 AP
 
+letters - words -> sentences -> paragraphs
 words = strings
 numbers = integers, floats
+
+this is my pen
+pen my this is
+
+'mouse'
+'cat'
+
+mouse
+cat
 
 'good morning'
 'hello'
@@ -48,33 +71,41 @@ pen -> 'pen'
 this is my pen
 this my pen is
 
-### concatenation -- adding words
+### concatenation -- joining words
 
 'this' + 'is' + 'my' + 'pen' --> 'this is my pen'
 
 ### Arithmetic operations
 
+1 + 2 + 3 + 4 = 10
+
 additon = 1 + 1
 subtraction = 1 - 1
-multiplcation = 2 _ 3
+multiplcation = 2*3
 division = 4 / 2 --> 2.0
 integer divison = 4 // 2 --> 2
-exponent = 2 \*\* 3 --> 2 _ 2 \* 2
+exponent = `2\*\*3 --> 2*2\*2`
 
 browser
+
+this is my pen
 
 run python code --> python interpreter --> computer
 run js code --> js interpreter --> computer
 run java code --> java software --> computer
 
 grammar -> syntax
+words -> strings
+numbers -> integers, floats
+
+data = information
 
 ## data types
 
 interger - 10,20...
-float - 10.5,
+float - 10.5, 3.14, 6.7...
 strings - 'hello', "good morning"
-boolean = True, False
+boolean - True, False
 
 ## Variables
 
@@ -128,10 +159,6 @@ False or False - False
 not True -> False
 not False -> True
 
-your age must be above 18 and you have to be from AP and also you must have driving liscenece, then we can provide the document.
-
 age = 19
 state = 'AP'
 driver_license = 'yes'
-
-if age > 18 and state == 'AP' and drive_license == 'yes'

@@ -1,14 +1,19 @@
 # user defined function
 
 # function definition
-def greet():
-    # function body
-    print('Good morning')
-    print('Welcome to my class')
+# def greet(name):  # parameter # name
+#     # function body
+#     print('Good morning ' + name)
+#     print('Welcome to my class ' + name)
 
 
-# function calling (using the function)
-greet()
+# # function calling (using the function)
+
+# print('hi')  # argument
+
+# greet('mouse')
+
+# greet('cat')
 
 
 # Homework
