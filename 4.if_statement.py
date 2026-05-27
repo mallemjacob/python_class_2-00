@@ -3,10 +3,10 @@
 # name = 'mouse'
 
 
-# # if condition:
-# #     block
-# # else:
-# #     block
+# if condition:
+#     block
+# else:
+#     block
 
 # if 2 > 10:
 #     print(num1)
@@ -76,11 +76,11 @@
 
 # come to class before 9 or complete the homework
 
-student_time = 12
-class_time = 10
-homework_completed = False
+# student_time = 12
+# class_time = 10
+# homework_completed = False
 
-if student_time < class_time or homework_completed == True:
-    print('you can get in class')
-else:
-    print('no class for you.')
+# if student_time < class_time or homework_completed == True:
+#     print('you can get in class')
+# else:
+#     print('no class for you.')
