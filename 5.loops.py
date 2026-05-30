@@ -33,35 +33,35 @@
 
 # break
 
-print('Enter you age: ')
+# print('Enter you age: ')
 
-# It asks for age, enter it from your keyboard
-student_age = int(input())  # int('21') -> 21
+# # It asks for age, enter it from your keyboard
+# student_age = int(input())  # int('21') -> 21
 
-adult_age = 18
+# adult_age = 18
 
-if student_age > adult_age:  # 21 > 18
-    while True:
-        print('Enter you name:')
-        name = input()  # 'mouse' -> name = 'mouse'
-        if name == 'mouse':  # mouse == mouse
-            print('Welcome ' + name)
-            for i in range(3):  # 0
-                # This loop runs only 3 times
-                print('Enter your password: ')
-                password = input()  # swordfish
-                if password == 'swordfish':
-                    print('Welcome to your account.')
-                    break
-                else:
-                    print('Wrong password.')
-            # This only executes after completing the for loop
-            break
-        else:
-            print('You are not mouse. Try again')
+# if student_age > adult_age:  # 21 > 18
+#     while True:
+#         print('Enter you name:')
+#         name = input()  # 'mouse' -> name = 'mouse'
+#         if name == 'mouse':  # mouse == mouse
+#             print('Welcome ' + name)
+#             for i in range(3):  # 0
+#                 # This loop runs only 3 times
+#                 print('Enter your password: ')
+#                 password = input()  # swordfish
+#                 if password == 'swordfish':
+#                     print('Welcome to your account.')
+#                     break
+#                 else:
+#                     print('Wrong password.')
+#             # This only executes after completing the for loop
+#             break
+#         else:
+#             print('You are not mouse. Try again')
 
-else:
-    print('You are not eligible')
+# else:
+#     print('You are not eligible')
 
 
 # ask for age
@@ -96,3 +96,18 @@ else:
 #         print(number) #
 #         continue
 #         print('welcome')
+
+# print('start')
+
+# while True:
+#     while True:
+#         while True:
+#             while True:
+#                 break
+#     break
+
+# print('end')
+
+
+# for i in range(0, 11, 3):  # 0 ,3, 6, 9
+#     print(i)
