@@ -84,13 +84,25 @@
 # while True:
 #     print('*' * 8, end=' ')
 
+# print(' ' * 3, end='')
+# print('********')
+
 import time
 space = 0
+increaseIndent = True
 while True:
     print(' ' * space, end='')
     print('********')
-    time.sleep(0.5)
-    space = space + 1
+    time.sleep(1)
+
+    if increaseIndent == True:
+        space = space + 1
+        if space == 10:
+            increaseIndent = False
+    else:
+        space = space - 1
+        if space == 0:
+            increaseIndent = True
 
 # Zigzag
 # ********
