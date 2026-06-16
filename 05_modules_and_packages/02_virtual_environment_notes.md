@@ -68,3 +68,10 @@ deactivate
 2. The website returned JSON data.
 3. We converted the response using `.json()`.
 4. We displayed part of that data in our own Flask website.
+
+youtube, facebook --> current chrome broweser version = 10
+instagram --> new chrome broweser version = 11
+
+virtual environment 1 = chrome browesr 10
+
+virtual environment 2 = chrome browesr 11
