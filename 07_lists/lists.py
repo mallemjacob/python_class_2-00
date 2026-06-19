@@ -30,24 +30,24 @@
 
 # fruits_list = ['apples', 'bananas', 'oranges']
 
-# # Read a value from list
-# print(fruits_list[0])
+# Read a value from list
+print(fruits_list[0])
 
 
 # # Update a value from a list
-# fruits_list[0] = 'pears'
-# print(fruits_list)
+fruits_list[0] = 'pears'
+print(fruits_list)
 
 
 # # Add new items to the list (list concatenation)
-# fruits_list = fruits_list + ['kiwis']
-# fruits_list = fruits_list + ['strawberries']
-# print(fruits_list)
+fruits_list = fruits_list + ['kiwis']
+fruits_list = fruits_list + ['strawberries']
+print(fruits_list)
 
 
 # # Creating a new empty list
-# animals = []
-# print(animals)
+animals = []
+print(animals)
 
 # animals = animals + ['cat']  # ['cat']
 # print(animals)
@@ -57,23 +57,23 @@
 
 
 # # Delete an item from the list
-# print(fruits_list)
-# del fruits_list[0]
+print(fruits_list)
+del fruits_list[0]
 
 # print(fruits_list)
 
 
 # # Accessing last item from the list
 # # Index           0         1           2
-# fruits_list = ['apples', 'bananas', 'oranges']
-# # # reverse        -3         -2          -1
+fruits_list = ['apples', 'bananas', 'oranges']
+# # # reverse     -3         -2          -1
 
 
 # # -3, -2, -1, 0, 1, 2, 3...
 
 # print(fruits_list)
 # print(fruits_list[2])
-# print(fruits_list[len(fruits_list) - 1])  # important
+print(fruits_list[len(fruits_list) - 1])  # very very important
 # print(fruits_list[-1])
 
 # print(fruits_list[-2])
@@ -91,47 +91,59 @@
 
 # # String index
 
-# name = 'mouse'
-# print(name[0])
-# print(name[1])
-# print(name[2])
-# print(name[3])
-# print(name[4])
+name = 'mouse'
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print(name[4])
 
 
 # # check if a value exists in a list
 fruits_list = ['apples', 'bananas', 'oranges']
 
 
-# print('apples' in fruits_list)
-# print('kiwi' in fruits_list)
+print('apples' in fruits_list)  # True
+print('kiwi' in fruits_list)  # False
 
-# print('kiwi' not in fruits_list)
-# print('apples' not in fruits_list)
+print('kiwi' not in fruits_list)  # True
+print('apples' not in fruits_list)  # False
 
 # Find index of an item
-# print(fruits_list.index('apples'))
-# print(fruits_list.index('oranges'))
+print(fruits_list.index('apples'))
+print(fruits_list.index('oranges'))
+
+# Functions-  general purpose
+# int(), str(), print()
+
+# methods
+# [1,2,3].index(2)
 
 
-# item_to_search = 'apples'
+item_to_search = 'apples'
 
-# if item_to_search in fruits_list:
-#     print(fruits_list.index(item_to_search))
-# else:
-#     print('kiwi not in list')
+if item_to_search in fruits_list:
+    print(fruits_list.index(item_to_search))
+else:
+    print(item_to_search + ' not in list')
 
 
 # # Slice
-# fruits_list = ['apples', 'bananas', 'oranges',
-#                'grapes', 'strawberries', 'kiwi', 'mouse']
+fruits_list = ['apples', 'bananas', 'oranges',
+               'grapes', 'strawberries', 'kiwi', 'mouse']
 
-# print(fruits_list[2:6])
+
+print(fruits_list[2:6])
 
 
 # # reverse a list
 
-# print(fruits_list[::-1])
+print(fruits_list[::-1])
+
+
+# step value - skips values
+print(fruits_list[::1])
+print(fruits_list[::2])
 
 
 # functions
@@ -140,63 +152,63 @@ fruits_list = ['apples', 'bananas', 'oranges']
 # List methods
 
 # append() = Adds an element at the end of the list
-# animals = ['cat', 'dog', 'rat']
-# print(animals)
+animals = ['cat', 'dog', 'rat']
+print(animals)
 
-# animals.append('mouse')
+animals.append('mouse')
 
-# print(animals)
+print(animals)
 
 # # clear()	= Removes all the elements from the list
-# animals.clear()
+animals.clear()
 
-# print(animals)
+print(animals)
 
 
 # # count() = Returns the number of elements with the specified value
-# animals = ['cat', 'dog', 'rat', 'bug', 'snake', 'dog', 'cat']
+animals = ['cat', 'dog', 'rat', 'bug', 'snake', 'dog', 'cat']
 
-# print(animals.count('cat'))
+print(animals.count('cat'))
 
 
 # # extend()	= Add the elements of a list (or any iterable), to the end of the current list
 
-# a1 = [1, 2, 3]
-# a2 = [4, 5, 6]
+a1 = [1, 2, 3]
+a2 = [4, 5, 6]
 
-# a1.extend(a2)
+a1.extend(a2)
 
-# print(a1)
+print(a1)
 
 
 # # insert() = Adds an element at the specified position
 
-# animals.insert(2, 'parrot')
+animals.insert(2, 'parrot')
 
-# print(animals)
+print(animals)
 
 
 # # pop()	= Removes the element at the specified position
 
-# print(animals)
+print(animals)
 
-# animals.pop()
-# animals.pop(0)
+animals.pop()
+animals.pop(0)
 
-# print(animals)
+print(animals)
 
 
 # # remove()	Removes the first item with the specified value
 
-# animals.remove('parrot')
-# print(animals)
+animals.remove('parrot')
+print(animals)
 
 
 # # reverse()	= Reverses the order of the list
 
-# animals.reverse()
+animals.reverse()
 
-# print(animals)
+print(animals)
 
 
 # # sort() = Sorts the list
@@ -213,23 +225,23 @@ fruits_list = ['apples', 'bananas', 'oranges']
 
 # cat list
 
-# cats = []
+cats = []
 
-# while True:
-#     cat_name = input('Enter a cat name:')  # snoopy
+while True:
+    cat_name = input('Enter a cat name:')  # snoopy
 
-#     if cat_name == '':
-#         break
-#     elif cat_name in cats:
-#         print('Name already exists. Give a new name')
-#     else:
-#         cats.append(cat_name)
+    if cat_name == '':
+        break
+    elif cat_name in cats:
+        print('Name already exists. Give a new name')
+    else:
+        cats.append(cat_name)
 
 
-# print("The cat names are: ")
+print("The cat names are: ")
 
-# for name in cats:
-#     print(name)
+for name in cats:
+    print(name)
 
 
 # List replication
