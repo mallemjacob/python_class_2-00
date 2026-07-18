@@ -54,8 +54,8 @@
 
 # print('I am ' + fname + ' ' + lname + ' I am ' + str(age))
 
-# # f-strings
-# print(f'I am {fname} {lname} and I am {age}. I will be {age + 1} in a year.')
+# # # f-strings
+# print(f'I am {fname} {lname} I am {age}. I will be {age + 1} in a year.')
 
 
 # # String Methods
@@ -119,7 +119,7 @@
 
 # while True:
 #     print('Enter your age: ')
-#     age = input()
+#     age = input()  # '123'
 #     if age.isdecimal():
 #         break
 #     print('Please enter a number for your age.')
@@ -146,13 +146,37 @@
 # print(','.join(['cat', 'rat', 'bat']))
 # print('|'.join(['cat', 'rat', 'bat']))
 
-print(' --- '.join(['S.no', 'Name', 'Address']))
-print('   --- '.join(['01', 'lyy', '001']))
-print('   --- '.join(['02', 'Val', '101']))
-print('   --- '.join(['03', 'Kye', '100']))
-print('   --- '.join(['04', 'Loki', '000']))
+# print(' --- '.join(['S.no', 'Name', 'Address']))
+# print('   --- '.join(['01', 'lyy', '001']))
+# print('   --- '.join(['02', 'Val', '101']))
+# print('   --- '.join(['03', 'Kye', '100']))
+# print('   --- '.join(['04', 'Loki', '000']))
 
 
 # Split()
 
-print('My name is Loki'.split(' '))
+# print('My name is Loki'.split(' '))
+# print('My name is Loki'.split('a'))
+
+
+# spam = '''Dear Alice,
+# How have you been? I am fine.
+# There is a container in the fridge
+# that is labeled "Milk Experiment."
+# Please do not drink it.
+# Sincerely,
+# Bob'''
+
+# print(spam.split('\n'))
+
+
+# Justifying Text with the rjust(), ljust(), and center() Methods
+
+# spam = 'Hello'
+# print(spam.rjust(10))
+# print(spam.ljust(10))
+# print(spam.center(10))
+
+
+# Removing Whitespace with the strip(), rstrip(), and lstrip() Methods
+'admin' == '  admin  '
